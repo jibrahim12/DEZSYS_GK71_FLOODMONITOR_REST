@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.floodmonitor.FloodMonitorIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-31T01:24:33" hostname="LAPTOP-CE6PEV3P" time="1.586">
+  <properties/>
+  <testcase name="7. Ungueltiger Zeitraum (from nach to) liefert 400 Bad Request" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="1.336"/>
+  <testcase name="1. Abruf aller Stationen als JSON" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.034"/>
+  <testcase name="4. Abruf einer unbekannten Station liefert 404" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.008"/>
+  <testcase name="9. Warnstufe WARNING berechnen" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.017"/>
+  <testcase name="10. Warnstufe CRITICAL berechnen" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.002"/>
+  <testcase name="5. Abruf des aktuellsten Messwerts" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.014"/>
+  <testcase name="11. Nicht unterstuetztes Format liefert 406 Not Acceptable" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.01"/>
+  <testcase name="12. Maximales Limit Validierung liefert 400" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.006"/>
+  <testcase name="2. Abruf aller Stationen als XML" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.118"/>
+  <testcase name="3. Abruf einer existierenden Station" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.004"/>
+  <testcase name="6. Filterung nach Zeitraum" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.015"/>
+  <testcase name="8. Warnstufe NORMAL berechnen" classname="com.example.floodmonitor.FloodMonitorIntegrationTests" time="0.002"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-10-31T02:24:31.150+01:00  INFO 39036 --- [    Test worker] c.e.f.FloodMonitorIntegrationTests       : Starting FloodMonitorIntegrationTests using Java 21.0.1 with PID 39036 (started by josef in C:\Users\josef\IdeaProjects\DEZSYS_GK71_FLOODMONITOR_REST_INCOMPLETE)
+2026-10-31T02:24:31.154+01:00  INFO 39036 --- [    Test worker] c.e.f.FloodMonitorIntegrationTests       : No active profile set, falling back to 1 default profile: "default"
+2026-10-31T02:24:32.905+01:00  INFO 39036 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-10-31T02:24:33.358+01:00  INFO 39036 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-10-31T02:24:33.358+01:00  INFO 39036 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-31T02:24:33.363+01:00  INFO 39036 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-10-31T02:24:33.399+01:00  INFO 39036 --- [    Test worker] c.e.f.FloodMonitorIntegrationTests       : Started FloodMonitorIntegrationTests in 2.6 seconds (process running for 4.149)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\josef\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.10\90ed94ac044ea8953b224304c762316e91fd6b31\byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
